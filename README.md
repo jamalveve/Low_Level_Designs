@@ -1,18 +1,97 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# 🧱 Low-Level Design (LLD) Project Showcase
 
-## Folder Structure
+Welcome to my **LLD Design Patterns Repository**!
+This project is a collection of real-world code implementations that demonstrate core design principles, architectures, and design patterns used in scalable, maintainable software systems.
 
-The workspace contains two folders by default, where:
+> 📌 **This repo highlights my understanding of LLD through hands-on implementation of SOLID principles, layered architecture, and a wide range of design patterns.**
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## ✅ Topics Covered
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 🔹 1. SOLID Principles ⏳
 
-## Dependency Management
+* **Single Responsibility Principle**
+* **Open/Closed Principle**
+* **Liskov Substitution Principle**
+* **Interface Segregation Principle**
+* **Dependency Inversion Principle**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🔹 2. MVC Architecture
+
+* Clean implementation of **Model-View-Controller** pattern for better modularity and separation of concerns.
+
+---
+
+## 🧠 Design Patterns
+
+### 📙 **Behavioral Design Patterns (12)**
+
+| Pattern                 | Status |
+| ----------------------- | ------ |
+| Strategy                | ✅      |
+| Observer                | ✅      |
+| Chain of Responsibility | ✅      |
+| Null Object             | ✅      |
+| State                   | ✅      |
+| Command                 | ✅      |
+| Iterator                | ✅      |
+| Mediator                | ✅      |
+| Visitor                 | ✅      |
+| Memento                 | ⏳      |
+| Template                | ⏳      |
+| Interpreter             | ⏳      |
+
+---
+
+### 🏗 **Structural Design Patterns (7)**
+
+| Pattern   | Status |
+| --------- | ------ |
+| Decorator | ✅      |
+| Proxy     | ✅      |
+| Composite | ⏳      |
+| Adapter   | ✅      |
+| Facade    | ⏳      |
+| Bridge    | ⏳      |
+| Flyweight | ⏳      |
+
+---
+
+### 🧬 **Creational Design Patterns (3/4)**
+
+| Pattern          | Status      |
+| ---------------- | ----------- |
+| Factory          | ✅           |
+| Abstract Factory | ✅           |
+| Builder          | ✅           |
+| Object Pool      | ⏳ *Pending* |
+
+---
+
+
+## 📎 Use Cases
+
+Each design pattern is implemented with:
+
+* Realistic use case
+* Class diagrams (where applicable)
+* Java-based code walkthrough
+* Simple README inside each folder
+
+---
+
+## 🚀 How to Explore
+
+1. Clone the repository
+2. Navigate to any pattern directory
+3. Run the main method or unit tests to observe pattern behavior
+4. Explore how the same problem is solved using different design approaches
+
+---
+
+## 🤝 Let's Connect
+
+Feel free to ⭐ the repo and [connect with me on LinkedIn](https://www.linkedin.com/in/jamal-veve/) for collaboration or LLD discussions.
+
