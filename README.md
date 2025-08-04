@@ -51,22 +51,22 @@ This project is a collection of real-world code implementations that demonstrate
 | --------- | ------ |
 | Decorator | ✅      |
 | Proxy     | ✅      |
-| Composite | ⏳      |
+| Composite | ✅      |
 | Adapter   | ✅      |
-| Facade    | ⏳      |
-| Bridge    | ⏳      |
+| Facade    | ✅      |
+| Bridge    | ✅      |
 | Flyweight | ⏳      |
 
 ---
 
 ### 🧬 **Creational Design Patterns (3/4)**
 
-| Pattern          | Status      |
-| ---------------- | ----------- |
-| Factory          | ✅           |
-| Abstract Factory | ✅           |
-| Builder          | ✅           |
-| Object Pool      | ⏳ *Pending* |
+| Pattern          | Status  |
+| ---------------- | --------|
+| Factory          | ✅      |
+| Abstract Factory | ✅      |
+| Builder          | ✅      |
+| Object Pool      | ✅      |
 
 ---
 
