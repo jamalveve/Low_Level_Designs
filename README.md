@@ -28,46 +28,48 @@ This project is a collection of real-world code implementations that demonstrate
 
 ### 📙 **Behavioral Design Patterns (12)**
 
-| Pattern                 | Status |
-| ----------------------- | ------ |
-| Strategy                | ✅      |
-| Observer                | ✅      |
-| Chain of Responsibility | ✅      |
-| Null Object             | ✅      |
-| State                   | ✅      |
-| Command                 | ✅      |
-| Iterator                | ✅      |
-| Mediator                | ✅      |
-| Visitor                 | ✅      |
-| Memento                 | ⏳      |
-| Template                | ⏳      |
-| Interpreter             | ⏳      |
-
+| Pattern                 | Status | Link |
+|-------------------------|--------|------|
+| Strategy                | ✅      | [🔗 Strategy](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/StrategyDesignPattern/StrategyTheory.md) |
+| Observer                | ✅      | [🔗 Observer](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/ObserverDesignPattern/ObserverDesignPatternTheory.md)|
+| Chain of Responsibility | ✅      | [🔗 CoR](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/ChainOfResponsibilty/ChainOfRespoDesignPatterntheory.md) |
+| Null Object             | ✅      | [🔗 Null Object](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/NullObjectDesignPattern/NullObjectDesignTheory.md) |
+| State                   | ✅      | [🔗 State](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/StateDesignPattern/StateDesignTheory.md) |
+| Command                 | ✅      | [🔗 Command](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/CommandDesignPattern/CommandDesignTheory.md) |
+| Iterator                | ✅      | [🔗 Iterator](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/IteratorDesignPattern/IteratorDesignTheory.md) |
+| Mediator                | ✅      | [🔗 Mediator](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/MediatorDesignpattern/MediatorDesignTheory.md) |
+| Visitor                 | ✅      | [🔗 Visitor](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/BehaviouralDesignPattern/VisitorDesignPattern/VisitorDesignTheory.md) |
+| Memento                 | ⏳      | [🔗 Memento]() |
+| Template                | ⏳      | [🔗 Template]() |
+| Interpreter             | ⏳      | [🔗 Interpreter]()|
 ---
 
 ### 🏗 **Structural Design Patterns (7)**
 
-| Pattern   | Status |
-| --------- | ------ |
-| Decorator | ✅      |
-| Proxy     | ✅      |
-| Composite | ✅      |
-| Adapter   | ✅      |
-| Facade    | ✅      |
-| Bridge    | ✅      |
-| Flyweight | ⏳      |
+| Pattern   | Status | Link |
+|-----------|--------|------|
+| Decorator | ✅      | [🔗 Decorator](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/StructutalDesignPattern/DecoratorDesignPattern/DecoratorDesignPatternTheory.md)  |
+| Proxy     | ✅      | [🔗 Proxy](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/StructutalDesignPattern/ProxyDesignPattern/ProxyDesignTheory.md) |
+| Composite | ✅      | [🔗 Composite](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/StructutalDesignPattern/ComposiiteDesignPattern/CompositeDesignPattern.md)  |
+| Adapter   | ✅      | [🔗 Adapter](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/StructutalDesignPattern/AdapterDesignPattern/AdpaterDesignTheory.md).   |
+| Facade    | ✅      | [🔗 Facade](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/StructutalDesignPattern/FacadeDesignPattern/FacadeDesignTheory.md).    |
+| Bridge    | ✅      | [🔗 Bridge](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/StructutalDesignPattern/BridgeDesignPattern/BridgeDesignTheory.md)     |
+| Flyweight | ⏳      | [🔗 Flyweight]()  |
 
 ---
 
 ### 🧬 **Creational Design Patterns (3/4)**
 
-| Pattern          | Status  |
-| ---------------- | --------|
-| Factory          | ✅      |
-| Abstract Factory | ✅      |
-| Builder          | ✅      |
-| Object Pool      | ✅      |
+| Pattern          | Status | Link |
+|------------------|--------|------|
+| Factory          | ✅      | [🔗 Factory](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/CreationalDesignPattern/FactoryDesignPattern/FactoryDesignPatternTheory.md) |
+| Abstract Factory | ✅      | [🔗 Abstract Factory](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/CreationalDesignPattern/AbstractFactoryDesignPattern/AbstractFactoryDesignTheory.md) |
+| Builder          | ✅      | [🔗 Builder](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/CreationalDesignPattern/BuilderDesignPattern/BuilderDesignTheory.md) |
+| Object Pool      | ✅      | [🔗 Object Pool](https://github.com/jamalveve/Low_Level_Designs/blob/main/src/CreationalDesignPattern/ObjectPoolDesignPattern/ObjectPoolTheory.md) |
 
+---
+
+## 📎 Use Cases
 ---
 
 

@@ -10,7 +10,8 @@ public class DataBaseConnectionPool {
         initialPool.add(new DatabaseConnection());
         initialPool.add(new DatabaseConnection());
 
-        ConnectionPool pool = new ConnectionPool(initialPool);
+        // Get singleton instance of connection pool
+        ConnectionPool pool = ConnectionPool.getInstance(initialPool);
 
         DatabaseConnection c1 = pool.getConnection();
         c1.connect();
@@ -53,15 +54,25 @@ class DatabaseConnection {
     }
 }
 
-// Connection Pool class
+// Singleton Connection Pool class
 class ConnectionPool {
+    private static ConnectionPool instance;
+
     private List<DatabaseConnection> availableConnections;
     private List<DatabaseConnection> usedConnections = new ArrayList<>();
-
     private static final int MAX_CONNECTIONS = 3;
 
-    public ConnectionPool(List<DatabaseConnection> pool) {
+    // Private constructor to prevent external instantiation
+    private ConnectionPool(List<DatabaseConnection> pool) {
         this.availableConnections = pool;
+    }
+
+    // Thread-safe way to obtain singleton instance
+    public static synchronized ConnectionPool getInstance(List<DatabaseConnection> pool) {
+        if (instance == null) {
+            instance = new ConnectionPool(pool);
+        }
+        return instance;
     }
 
     public synchronized DatabaseConnection getConnection() {
@@ -83,7 +94,7 @@ class ConnectionPool {
         availableConnections.add(connection);
     }
 
-    public int getAvailableConnectionsCount() {
+    public synchronized int getAvailableConnectionsCount() {
         return availableConnections.size();
     }
 }
